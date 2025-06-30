@@ -17,7 +17,7 @@ function NavBar({ children }) {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
         {/* Brand */}
         <span className="text-xl font-bold" style={{ color: "#ffc300" }}>
-          DEX
+          YniSwap
         </span>
         {/* Navigation Links */}
         <div className="flex space-x-2">
