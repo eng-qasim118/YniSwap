@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply min-h-screen bg-gray-100;
+    background: #052b53;
+    color: #f8f9fa;
+}
+
+html {
+    background: #0c345e;
+}
+
+html,
+body,
+#root,
+#app,
+.app-root {
+    background: #03172d !important;
+    color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.bg-dark-blue {
+    background: #2c92ff !important;
+}
+
+h1,
+h2 {
+    color: #ffc300 !important;
+}
+
+h4,
+h5,
+h6 {
+    color: #fff !important;
+}
+
+.heading-yellow {
+    color: #ffc300 !important;
+}
